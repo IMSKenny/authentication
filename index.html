@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Больше О Функциях</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <h1>Проверка подлинности купюры</h1>
+  <img src="IMG_1279.jpg" height="200" alt="">
+  <div>
+    <label for="authentication">Введите номер купюры (12 знаков):</label>
+    <input type="text" id="authentication" name="authentication" required minlength="12" maxlength="12" />
+    <button id="authentication__button">authentication</button>
+    <h2 class="authentic hidden">Купюра подлинная</h2>
+    <h2 class="fake hidden">Купюра фальшивая</h2>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
